@@ -1,8 +1,9 @@
-import React, { useState, useEffect } from 'react';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
-import styled from 'styled-components';
+import React, { useEffect, useState } from 'react';
+import { loaderDelay, navDelay } from '@utils';
+
 import { email } from '@config';
-import { navDelay, loaderDelay } from '@utils';
+import styled from 'styled-components';
 import { usePrefersReducedMotion } from '@hooks';
 
 const StyledHeroSection = styled.section`
@@ -59,11 +60,11 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Brittany Chiang.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
+  const two = <h2 className="big-heading">Chang You</h2>;
+  const three = <h3 className="big-heading">I Create to Thrive！</h3>;
   const four = (
     <p>
-      I'm a Boston-based software engineer who specializes in building (and occasionally designing)
+      I'm a full-stack software engineer who specializes in building (and occasionally designing)
       exceptional digital experiences. Currently, I'm an engineer at{' '}
       <a href="https://upstatement.com/">Upstatement</a> focused on building accessible,
       human-centered products.

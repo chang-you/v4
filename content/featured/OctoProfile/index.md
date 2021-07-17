@@ -2,7 +2,7 @@
 date: '3'
 title: 'OctoProfile'
 cover: './octoprofile.png'
-github: 'https://github.com/bchiang7/octoprofile'
+github: 'https://github.com/bYou7/octoprofile'
 external: 'https://octoprofile.now.sh'
 tech:
   - Next.js

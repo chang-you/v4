@@ -1,8 +1,9 @@
-import React, { useState, useEffect } from 'react';
-import PropTypes from 'prop-types';
-import styled from 'styled-components';
+import React, { useEffect, useState } from 'react';
+
 import { Icon } from '@components/icons';
+import PropTypes from 'prop-types';
 import { socialMedia } from '@config';
+import styled from 'styled-components';
 
 const StyledFooter = styled.footer`
   ${({ theme }) => theme.mixins.flexCenter};
@@ -77,7 +78,7 @@ const Footer = () => {
     if (process.env.NODE_ENV !== 'production') {
       return;
     }
-    fetch('https://api.github.com/repos/bchiang7/v4')
+    fetch('https://api.github.com/repos/bYou7/v4')
       .then(response => response.json())
       .then(json => {
         const { stargazers_count, forks_count } = json;
@@ -105,8 +106,8 @@ const Footer = () => {
       </StyledSocialLinks>
 
       <StyledCredit tabindex="-1">
-        <a href="https://github.com/bchiang7/v4">
-          <div>Designed &amp; Built by Brittany Chiang</div>
+        <a href="https://github.com/bYou7/v4">
+          <div>Theme &amp; Credit: Brittany Chiang</div>
 
           {githubInfo.stars && githubInfo.forks && (
             <div className="github-stats">
