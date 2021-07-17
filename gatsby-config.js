@@ -5,7 +5,7 @@ module.exports = {
     title: 'Chang You',
     description:
       'Chang You is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
-    siteUrl: 'https://ChangYou.com', // No trailing slash allowed!
+    siteUrl: 'https://ChangYou.com', // No trailing slas allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@bYou7',
   },
