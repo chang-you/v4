@@ -4,7 +4,7 @@ title: 'Production Engineering Fellow'
 company: 'MLH & Facebook'
 location: 'Boston, MA'
 range: 'June 2021 - Present'
-url: 'https://www.upstatement.com/'
+url: 'https://fellowship.mlh.io/programs/production-engineering'
 ---
 
 - Selected from over 20,000 applicants for joint software and systems engineering program with Facebook
