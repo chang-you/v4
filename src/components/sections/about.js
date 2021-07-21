@@ -147,7 +147,7 @@ const About = () => {
             <p>
               Hello! I'm Chang, a full-stack software engineer &amp; advanturer, and aspiring
               entrepreneur based in the Bay Area. I'm currently pursuing BS in Computer Science and
-              Mathematics in Santa Clara University, an University based in Silicon Valley that
+              Mathematics in Santa Clara University, the University based in Silicon Valley that
               advances faith-inspired values of social justice, sustainability, and ethics.
             </p>
             <p>
