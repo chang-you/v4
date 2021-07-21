@@ -153,7 +153,8 @@ const About = () => {
             <p>
               Inspired by this mission, and with the belief that we &quot;consume to survive, create
               to thrive.&quot; I'm passionate about advancing diversity in Tech and building
-              accessible, inclusive products that have meaningful impacts to society and the world.
+              accessible and inclusive products that have meaningful impacts to society and the
+              world.
             </p>
             <p></p>
 
