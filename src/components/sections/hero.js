@@ -66,7 +66,7 @@ const Hero = () => {
     <p>
       I'm a full-stack software engineer who specializes in building and designing exceptional and
       inclusive products. Currently, I'm a CS &amp; Math student at Santa Clara University based in
-      the Silicon Valley and activily looking for new opportunities.
+      the Silicon Valley and actively looking for new opportunities.
     </p>
   );
   const five = (
