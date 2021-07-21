@@ -1,10 +1,11 @@
-import React, { useEffect, useRef } from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
-import styled from 'styled-components';
+import React, { useEffect, useRef } from 'react';
+import { graphql, useStaticQuery } from 'gatsby';
+
+import { Icon } from '@components/icons';
 import sr from '@utils/sr';
 import { srConfig } from '@config';
-import { Icon } from '@components/icons';
+import styled from 'styled-components';
 import { usePrefersReducedMotion } from '@hooks';
 
 const StyledProjectsGrid = styled.ul`
