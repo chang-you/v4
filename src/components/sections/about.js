@@ -132,8 +132,9 @@ const About = () => {
     'HTML &amp; CSS',
     'Python',
     'Node.js',
-    'WordPress',
+    'Spring',
     'Java',
+    'AWS',
   ];
 
   return (
