@@ -2,10 +2,10 @@
   "name": "v4",
   "description": "Personal Website V4",
   "version": "1.0.0",
-  "author": "Chang You <Chang.You@gmail.com>",
+  "author": "Chang You <changyou@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bYou7/v4"
+    "url": "https://github.com/chang-you"
   },
   "keywords": [
     "gatsby"

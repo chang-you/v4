@@ -1,6 +1,6 @@
 ---
 date: '2'
-title: 'Spring based Shopping'
+title: 'Spring Based Shopping Engine'
 cover: './demo.png'
 github: 'https://github.com/bYou7/spotify-profile'
 external: 'https://spotify-profile.herokuapp.com/'
