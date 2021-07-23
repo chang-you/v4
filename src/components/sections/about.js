@@ -145,14 +145,14 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! I'm Chang, a full-stack software engineer, adventurer, and aspiring
-              entrepreneur based in the Bay Area. I'm currently pursuing BS in Computer Science and
-              Mathematics at Santa Clara University, the University based in Silicon Valley that
-              advances faith-inspired values of social justice, sustainability, and ethics.
+              Hello! I'm Chang, an aspiring full-stack software engineer, designer and adventurer
+              based in the Bay Area. I'm currently pursuing BS in Computer Science and Mathematics
+              at Santa Clara University, the university based in Silicon Valley that advances
+              faith-inspired values of social justice, sustainability, and ethics.
             </p>
             <p>
               Inspired by this mission, and with the belief that we &quot;consume to survive, create
-              to thrive.&quot; I'm passionate about advancing diversity in Tech and building
+              to thrive.&quot; I'm passionate about advancing diversity in tech and building
               accessible and inclusive products that have meaningful impacts to our society and the
               world.
             </p>
