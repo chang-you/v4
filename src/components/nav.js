@@ -1,13 +1,14 @@
-import React, { useState, useEffect } from 'react';
-import { Link } from 'gatsby';
-import PropTypes from 'prop-types';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
+import React, { useEffect, useState } from 'react';
 import styled, { css } from 'styled-components';
-import { navLinks } from '@config';
-import { loaderDelay } from '@utils';
-import { useScrollDirection, usePrefersReducedMotion } from '@hooks';
-import { Menu } from '@components';
+import { usePrefersReducedMotion, useScrollDirection } from '@hooks';
+
 import { IconLogo } from '@components/icons';
+import { Link } from 'gatsby';
+import { Menu } from '@components';
+import PropTypes from 'prop-types';
+import { loaderDelay } from '@utils';
+import { navLinks } from '@config';
 
 const StyledHeader = styled.header`
   ${({ theme }) => theme.mixins.flexBetween};
@@ -173,7 +174,11 @@ const Nav = ({ isHome }) => {
   );
 
   const ResumeLink = (
-    <a className="resume-button" href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+    <a
+      className="resume-button"
+      href="/ChangYou-sde-resume.pdf"
+      target="_blank"
+      rel="noopener noreferrer">
       Resume
     </a>
   );
